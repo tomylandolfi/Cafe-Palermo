@@ -1,0 +1,46 @@
+.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4%;
+}
+
+.caja {
+  border: solid 5px;
+  margin: 5px 10px 5px 10px;
+  height: 90vh;
+}
+
+.title {
+  text-align: center;
+  font-family: $fuentetTitulo;
+  font-size: 2em;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translatey(-50%) translateX(-50%);
+}
+
+.nav ul {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 60%;
+
+  li {
+    list-style: none;
+    font-family: $fuenteTexto;
+    display: inline;
+
+    a {
+      text-decoration: none;
+      color: $colorLinks;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+    }
+  }
+}

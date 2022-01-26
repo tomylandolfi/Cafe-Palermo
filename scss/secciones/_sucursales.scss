@@ -1,0 +1,33 @@
+.title2 {
+  grid-area: title;
+  display: flex;
+  justify-content: center;
+  font-family: $fuentetTitulo;
+}
+
+.left1 {
+  grid-area: left1;
+}
+
+.left1 h3, .left1 p {
+  text-align: center;
+  font-family: $fuenteTexto;
+}
+
+.left2 {
+  display: flex;
+  justify-content: center;
+  grid-area: left2;
+}
+
+.right1 {
+  grid-area: right1;
+  display: flex;
+  justify-content: center;
+}
+
+.right2 {
+  grid-area: right2;
+  font-family: $fuenteTexto;
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+.footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: solid;
+
+  ul {
+    list-style: none;
+    margin-right: 2%;
+
+    li {
+      display: inline;
+
+      a {
+        text-decoration: none;
+        color: $colorLinks;
+        font-family: $fuenteTexto;
+
+          &:hover {
+            text-decoration: underline;
+          }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+body {
+  background-color: $colorFondo;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 7vh 14vh 55vh 55vh 7vh;
+  gap: 0px 0px;
+  grid-template-areas:
+    "header header"
+    "title title"
+    "left1 right1"
+    "left2 right2"
+    "footer footer";
+}

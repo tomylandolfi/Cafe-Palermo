@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Readex+Pro:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #E3DAC8; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 7vh 14vh 55vh 55vh 7vh;
+  gap: 0px 0px;
+  grid-template-areas: "header header" "title title" "left1 right1" "left2 right2" "footer footer"; }
+
+.header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header a img {
+    width: 70%;
+    margin-left: 40%;
+    margin-top: 10%; }
+
+.navCentral {
+  margin-right: 1%; }
+  .navCentral ul {
+    list-style: none; }
+    .navCentral ul li a {
+      text-decoration: none;
+      font-family: "Readex Pro", sans-serif;
+      color: black; }
+      .navCentral ul li a:hover {
+        text-decoration: underline; }
+
+.footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: solid; }
+  .footer ul {
+    list-style: none;
+    margin-right: 2%; }
+    .footer ul li {
+      display: inline; }
+      .footer ul li a {
+        text-decoration: none;
+        color: black;
+        font-family: "Readex Pro", sans-serif; }
+        .footer ul li a:hover {
+          text-decoration: underline; }
+
+.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4%; }
+
+.caja {
+  border: solid 5px;
+  margin: 5px 10px 5px 10px;
+  height: 90vh; }
+
+.title {
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+  font-size: 2em;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translatey(-50%) translateX(-50%); }
+
+.nav ul {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 60%; }
+  .nav ul li {
+    list-style: none;
+    font-family: "Readex Pro", sans-serif;
+    display: inline; }
+    .nav ul li a {
+      text-decoration: none;
+      color: black; }
+      .nav ul li a:hover {
+        text-decoration: underline; }
+
+.title2 {
+  grid-area: title;
+  display: flex;
+  justify-content: center;
+  font-family: "Abril Fatface", cursive; }
+
+.left1 {
+  grid-area: left1; }
+
+.left1 h3, .left1 p {
+  text-align: center;
+  font-family: "Readex Pro", sans-serif; }
+
+.left2 {
+  display: flex;
+  justify-content: center;
+  grid-area: left2; }
+
+.right1 {
+  grid-area: right1;
+  display: flex;
+  justify-content: center; }
+
+.right2 {
+  grid-area: right2;
+  font-family: "Readex Pro", sans-serif;
+  text-align: center; }
+
+@media only screen and (max-width: 768px) {
+  /* Vista para celulares */
+  .icon {
+    display: none; }
+  .caja {
+    height: 100vh; }
+  .title {
+    font-size: 3vh; }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 10vh 50vh 10vh 50vh 10vh 10vh;
+    gap: 0px 0px;
+    grid-template-areas: "header" "title" "right1" "left1" "left2" "right2" "footer"; }
+  .right1 {
+    display: flex;
+    align-items: center; }
+  .left2 {
+    display: flex;
+    align-items: center; } }

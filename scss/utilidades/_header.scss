@@ -1,0 +1,32 @@
+.header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a img {
+    width: 70%;
+    margin-left: 40%;
+    margin-top: 10%;
+  }
+}
+
+.navCentral {
+  margin-right: 1%;
+
+    ul {
+      list-style: none;
+
+        li{
+          a{
+          text-decoration: none;
+          font-family: $fuenteTexto;
+          color: $colorLinks;
+
+            &:hover {
+              text-decoration: underline;
+              }
+            }
+          }
+        }
+      }

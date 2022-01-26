@@ -1,0 +1,22 @@
+//Hago el reset
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+//Importo las variables
+@import "./variables/colores";
+@import "./variables/fuentes";
+
+//Importo las utilidades
+@import "./utilidades/cuerpo";
+@import "./utilidades/header";
+@import "./utilidades/footer";
+
+//Importo las secciones
+@import "./secciones/index";
+@import "./secciones/sucursales";
+
+
+//Importo las media querys
+@import "./secciones/celulares"

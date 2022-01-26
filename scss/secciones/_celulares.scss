@@ -1,0 +1,38 @@
+@media only screen and (max-width: 768px) {
+  /* Vista para celulares */
+  .icon{
+    display: none;
+  }
+
+  .caja{
+    height: 100vh;
+  }
+  .title{
+    font-size: 3vh;
+  }
+
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 10vh 50vh 10vh 50vh 10vh 10vh;
+    gap: 0px 0px;
+    grid-template-areas:
+      "header"
+      "title"
+      "right1"
+      "left1"
+      "left2"
+      "right2"
+      "footer";
+  }
+
+  .right1{
+    display: flex;
+    align-items: center;
+  }
+
+  .left2{
+    display: flex;
+    align-items: center;
+  }
+}
