@@ -1,0 +1,19 @@
+$tipoFuente:(
+
+  title: $fuentetTitulo,
+  title2: $fuentetTitulo,
+  cafe1: $fuenteTexto,
+  left1: $fuenteTexto,
+  right2: $fuenteTexto,
+  nav ul li: $fuenteTexto,
+  navCentral ul li a: $fuenteTexto,
+
+);
+
+@each $clase, $tipo in $tipoFuente{
+  .#{$clase}{
+    font-family: $tipo;
+
+  }
+
+}

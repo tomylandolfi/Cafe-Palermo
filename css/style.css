@@ -14,6 +14,27 @@ body {
   gap: 0px 0px;
   grid-template-areas: "header header" "title title" "left1 right1" "left2 right2" "footer footer"; }
 
+.title {
+  font-family: "Abril Fatface", cursive; }
+
+.title2 {
+  font-family: "Abril Fatface", cursive; }
+
+.cafe1 {
+  font-family: "Readex Pro", sans-serif; }
+
+.left1 {
+  font-family: "Readex Pro", sans-serif; }
+
+.right2 {
+  font-family: "Readex Pro", sans-serif; }
+
+.nav ul li {
+  font-family: "Readex Pro", sans-serif; }
+
+.navCentral ul li a {
+  font-family: "Readex Pro", sans-serif; }
+
 .header {
   grid-area: header;
   display: flex;
@@ -28,12 +49,13 @@ body {
   margin-right: 1%; }
   .navCentral ul {
     list-style: none; }
-    .navCentral ul li a {
-      text-decoration: none;
-      font-family: "Readex Pro", sans-serif;
-      color: black; }
-      .navCentral ul li a:hover {
-        text-decoration: underline; }
+    .navCentral ul li {
+      display: inline; }
+      .navCentral ul li a {
+        text-decoration: none;
+        color: black; }
+        .navCentral ul li a:hover {
+          text-decoration: underline; }
 
 .footer {
   grid-area: footer;
@@ -66,7 +88,6 @@ body {
 
 .title {
   text-align: center;
-  font-family: "Abril Fatface", cursive;
   font-size: 2em;
   margin: 0;
   position: absolute;
@@ -81,7 +102,6 @@ body {
   top: 60%; }
   .nav ul li {
     list-style: none;
-    font-family: "Readex Pro", sans-serif;
     display: inline; }
     .nav ul li a {
       text-decoration: none;
@@ -92,15 +112,13 @@ body {
 .title2 {
   grid-area: title;
   display: flex;
-  justify-content: center;
-  font-family: "Abril Fatface", cursive; }
+  justify-content: center; }
 
 .left1 {
   grid-area: left1; }
 
 .left1 h3, .left1 p {
-  text-align: center;
-  font-family: "Readex Pro", sans-serif; }
+  text-align: center; }
 
 .left2 {
   display: flex;
@@ -114,8 +132,21 @@ body {
 
 .right2 {
   grid-area: right2;
-  font-family: "Readex Pro", sans-serif;
   text-align: center; }
+
+.imagen {
+  width: 50%;
+  height: 50%;
+  object-fit: cover; }
+
+.cafe2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.cafe1 {
+  display: flex;
+  align-items: center; }
 
 @media only screen and (max-width: 768px) {
   /* Vista para celulares */

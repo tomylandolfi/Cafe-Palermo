@@ -1,0 +1,16 @@
+.imagen {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.cafe2{
+  @include flex-center;
+  align-items: center;
+}
+
+.cafe1{
+  display: flex;
+  align-items: center;
+
+}

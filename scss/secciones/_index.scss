@@ -13,7 +13,6 @@
 
 .title {
   text-align: center;
-  font-family: $fuentetTitulo;
   font-size: 2em;
   margin: 0;
   position: absolute;
@@ -30,7 +29,6 @@
 
   li {
     list-style: none;
-    font-family: $fuenteTexto;
     display: inline;
 
     a {

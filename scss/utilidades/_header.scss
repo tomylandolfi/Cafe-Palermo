@@ -17,16 +17,18 @@
     ul {
       list-style: none;
 
-        li{
-          a{
-          text-decoration: none;
-          font-family: $fuenteTexto;
-          color: $colorLinks;
 
-            &:hover {
-              text-decoration: underline;
+        li{
+          display: inline;
+            a{
+            text-decoration: none;
+            color: $colorLinks;
+
+
+              &:hover {
+                text-decoration: underline;
+                }
               }
-            }
           }
         }
       }

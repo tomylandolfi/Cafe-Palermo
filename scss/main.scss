@@ -10,12 +10,15 @@
 
 //Importo las utilidades
 @import "./utilidades/cuerpo";
+@import "./utilidades/mapa";
 @import "./utilidades/header";
 @import "./utilidades/footer";
+@import "./utilidades/mixin";
 
 //Importo las secciones
 @import "./secciones/index";
 @import "./secciones/sucursales";
+@import "./secciones/cafe";
 
 
 //Importo las media querys
