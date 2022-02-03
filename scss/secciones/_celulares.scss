@@ -14,7 +14,7 @@
   .grid{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 10vh 50vh 10vh 50vh 10vh 10vh;
+    grid-template-rows: 10vh 10vh 50vh 10vh 50vh 30vh 10vh;
     gap: 0px 0px;
     grid-template-areas:
       "header"
@@ -34,5 +34,25 @@
   .left2{
     display: flex;
     align-items: center;
+  }
+
+  .cafe1{
+    position: relative;
+    inline-size: 200px;
+    overflow-wrap: break-word;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .imagen{
+    height: auto;
+  }
+
+  .imagenMenu{
+    width: 20vw;
+    height: 100vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
   }
 }

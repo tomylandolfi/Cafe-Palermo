@@ -35,6 +35,9 @@ body {
 .navCentral ul li a {
   font-family: "Readex Pro", sans-serif; }
 
+.texto {
+  font-family: "Readex Pro", sans-serif; }
+
 .header {
   grid-area: header;
   display: flex;
@@ -148,6 +151,26 @@ body {
   display: flex;
   align-items: center; }
 
+.imagenMenu {
+  display: flex;
+  justify-content: center;
+  height: 150vh;
+  width: auto;
+  margin-top: 50px; }
+
+.texto {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.form {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30%; }
+
 @media only screen and (max-width: 768px) {
   /* Vista para celulares */
   .icon {
@@ -159,7 +182,7 @@ body {
   .grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 10vh 50vh 10vh 50vh 10vh 10vh;
+    grid-template-rows: 10vh 10vh 50vh 10vh 50vh 30vh 10vh;
     gap: 0px 0px;
     grid-template-areas: "header" "title" "right1" "left1" "left2" "right2" "footer"; }
   .right1 {
@@ -167,4 +190,18 @@ body {
     align-items: center; }
   .left2 {
     display: flex;
-    align-items: center; } }
+    align-items: center; }
+  .cafe1 {
+    position: relative;
+    inline-size: 200px;
+    overflow-wrap: break-word;
+    left: 50%;
+    transform: translateX(-50%); }
+  .imagen {
+    height: auto; }
+  .imagenMenu {
+    width: 20vw;
+    height: 100vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); } }
